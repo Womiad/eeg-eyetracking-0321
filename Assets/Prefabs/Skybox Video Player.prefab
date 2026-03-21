@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4228563578554277179
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4228563578554277178}
+  - component: {fileID: 4228563578554277176}
+  - component: {fileID: 4228563578554277177}
+  m_Layer: 0
+  m_Name: Skybox Video Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4228563578554277178
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4228563578554277179}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!328 &4228563578554277176
+VideoPlayer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4228563578554277179}
+  m_Enabled: 1
+  m_VideoClip: {fileID: 0}
+  m_TargetCameraAlpha: 1
+  m_TargetCamera3DLayout: 0
+  m_TargetCamera: {fileID: 0}
+  m_TargetTexture: {fileID: 8400000, guid: af59fe46072e85445b2523767babac9c, type: 2}
+  m_TimeReference: 0
+  m_TargetMaterialRenderer: {fileID: 0}
+  m_TargetMaterialProperty: <noninit>
+  m_RenderMode: 2
+  m_AspectRatio: 2
+  m_DataSource: 0
+  m_PlaybackSpeed: 1
+  m_AudioOutputMode: 2
+  m_TargetAudioSources:
+  - {fileID: 0}
+  m_DirectAudioVolumes:
+  - 1
+  m_Url: 
+  m_EnabledAudioTracks: 01
+  m_DirectAudioMutes: 00
+  m_ControlledAudioTrackCount: 1
+  m_PlayOnAwake: 0
+  m_SkipOnDrop: 1
+  m_Looping: 0
+  m_WaitForFirstFrame: 1
+  m_FrameReadyEventEnabled: 0
+  m_VideoShaders: []
+--- !u!114 &4228563578554277177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4228563578554277179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea342bf5901a1ec45b5d54cfa78c5110, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 4444b890a2dc9de419de8670ed757a3c, type: 2}
+  videoSources:
+  - number: 1
+    title: Abandoned building
+    clip: {fileID: 32900000, guid: cb94e95122cfcc64faec30a41f54edbb, type: 3}
+    type: 4
+    groundTruth:
+      valence: 4.39
+      arousal: 2.77
+    materialRotation: 45
+  - number: 14
+    title: War Zone
+    clip: {fileID: 32900000, guid: e981c73d72ff201459b79a00c9ae4625, type: 3}
+    type: 4
+    groundTruth:
+      valence: 2.53
+      arousal: 3.82
+    materialRotation: 210
+  - number: 18
+    title: The Displaced
+    clip: {fileID: 32900000, guid: 8bf1fa18379ea9840afaa03681826653, type: 3}
+    type: 4
+    groundTruth:
+      valence: 2.18
+      arousal: 4.73
+    materialRotation: 219
+  - number: 19
+    title: The Nepal Earthquake Aftermath
+    clip: {fileID: 32900000, guid: f402c3d59c06ca446ad92f4f6d9acbf6, type: 3}
+    type: 4
+    groundTruth:
+      valence: 2.73
+      arousal: 3.8
+    materialRotation: 0
+  - number: 21
+    title: Zombie Apocalypse Horror
+    clip: {fileID: 32900000, guid: 30d3c8264b3f3c349a3e738ced682acd, type: 3}
+    type: 3
+    groundTruth:
+      valence: 3.2
+      arousal: 5.6
+    materialRotation: 90
+  - number: 22
+    title: Great Ocean Road
+    clip: {fileID: 32900000, guid: 0fe40a29fd037234aaf5fbc02fbd6556, type: 3}
+    type: 2
+    groundTruth:
+      valence: 7.77
+      arousal: 3.92
+    materialRotation: 270
+  - number: 23
+    title: Instant Caribbean Vacation
+    clip: {fileID: 32900000, guid: 8dc00a13745217d499dd9cf8d16cff00, type: 3}
+    type: 2
+    groundTruth:
+      valence: 7.2
+      arousal: 3.2
+    materialRotation: 270
+  - number: 33
+    title: Pacific Sunset Half Moon Bay
+    clip: {fileID: 32900000, guid: 722dc0ee615deb943b290b88044d450a, type: 3}
+    type: 2
+    groundTruth:
+      valence: 6.19
+      arousal: 1.81
+    materialRotation: 0
+  - number: 37
+    title: Sunset of Oia-Santorini
+    clip: {fileID: 32900000, guid: 9a3438c127341ae46939174cff589847, type: 3}
+    type: 2
+    groundTruth:
+      valence: 6.55
+      arousal: 3.09
+    materialRotation: 94
+  - number: 39
+    title: Zip-lining in Chattanooga
+    clip: {fileID: 32900000, guid: b373c890b166a8a47926b426304171b5, type: 3}
+    type: 0
+    groundTruth:
+      valence: 4.79
+      arousal: 4.57
+    materialRotation: 265
+  - number: 50
+    title: Puppies host SourceFed for a day
+    clip: {fileID: 32900000, guid: 755f2ad900f146449a414d416bfcc5de, type: 3}
+    type: 1
+    groundTruth:
+      valence: 7.47
+      arousal: 5.35
+    materialRotation: 92
+  - number: 52
+    title: Speed Flying
+    clip: {fileID: 32900000, guid: 1ed86d50b8306c74c8211a37a052f6b1, type: 3}
+    type: 1
+    groundTruth:
+      valence: 6.75
+      arousal: 7.42
+    materialRotation: 133
+  - number: 63
+    title: NASA Encapsulation & Launch of OSIRIS Rex
+    clip: {fileID: 32900000, guid: 744a6fa29e31ee94f86aad399a3bad66, type: 3}
+    type: 1
+    groundTruth:
+      valence: 6.36
+      arousal: 5.93
+    materialRotation: 0
+  - number: 66
+    title: Great Hammerhead Shark Encounter
+    clip: {fileID: 32900000, guid: 214838282c4713e41be7f833b1718fde, type: 3}
+    type: 1
+    groundTruth:
+      valence: 6.17
+      arousal: 6.67
+    materialRotation: 75
+  - number: 68
+    title: Jailbreak 360
+    clip: {fileID: 32900000, guid: ebeffa92b220eed48a1bacdde0aab7ae, type: 3}
+    type: 3
+    groundTruth:
+      valence: 4.4
+      arousal: 6.7
+    materialRotation: 0
