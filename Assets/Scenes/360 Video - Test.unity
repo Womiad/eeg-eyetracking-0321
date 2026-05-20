@@ -3744,7 +3744,7 @@ PrefabInstance:
     - target: {fileID: 4228563578554277177, guid: 644c205001bf343429052fb09e875b7e, type: 3}
       propertyPath: videoSources.Array.data[0].clip
       value: 
-      objectReference: {fileID: 32900000, guid: 8dc00a13745217d499dd9cf8d16cff00, type: 3}
+      objectReference: {fileID: 32900000, guid: 288f90440d7cb0e489705d81c934e8a5, type: 3}
     - target: {fileID: 4228563578554277177, guid: 644c205001bf343429052fb09e875b7e, type: 3}
       propertyPath: videoSources.Array.data[0].mask
       value: 22
@@ -4273,7 +4273,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42a45300ab3d9964c9fe499e0e2178e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  videoSceneManager: {fileID: 1507725264}
+  VideoSceneManager: {fileID: 0}
 --- !u!4 &1459694033
 Transform:
   m_ObjectHideFlags: 0
@@ -4337,6 +4337,7 @@ MonoBehaviour:
   record_cam: {fileID: 117795811}
   FadeUI: {fileID: 2056748805}
   isExample: 0
+  progress_bar: {fileID: 0}
 --- !u!4 &1507725265
 Transform:
   m_ObjectHideFlags: 0
